@@ -5,7 +5,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav className='navbar fixed top-0 w-full h-20  flex justify-between bg-opacity-0'>
+    <nav className='navbar fixed top-0 w-full h-20  flex justify-between bg-opacity-0 backdrop-blur-md'>
         <House className='icon h-10 w-10 mx-3 mt-5 text-black font-bold'/>
         <ul className='flex justify-center items-center px-60 space-x-6'>
            <Link to="/">        <li  >Home    </li></Link>

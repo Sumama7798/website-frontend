@@ -1,13 +1,14 @@
 import React from 'react'
 
-import HomeIntroSection from '../../pageContents/homePageContent/HomeIntroSection.jsx'
+import HomeIntroSection from '../../pageContents/homePageContent/introSection/HomeIntroSection.jsx'
+import HomeServicesSection from '../../pageContents/homePageContent/serivesSection/HomeServicesSection.jsx'
 
 const HomePage = () => {
   return (
-    <>
+    <div>
     <HomeIntroSection />
-    <HomeIntroSection />
-    </>
+    <HomeServicesSection />
+    </div>
   )
 }
 
