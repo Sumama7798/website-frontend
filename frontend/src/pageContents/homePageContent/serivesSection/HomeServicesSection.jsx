@@ -3,7 +3,7 @@ import React from 'react'
 const HomeServicesSection = () => {
   return (
     <div className='h-full mt-20 mb-36 justify-center '>
-
+            
             {/* Heading */}
         <div className='flex justify-center mx-auto mb-20 text-4xl text-white font-sans font-semibold'> <h1>Our Services</h1></div>
 
