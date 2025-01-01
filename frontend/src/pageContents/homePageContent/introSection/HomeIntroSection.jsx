@@ -1,13 +1,17 @@
 import React from 'react'
 import './HomeIntroSection.css'
+import ImageSlider from './ImageSlider'
 
 const HomeIntroSection = () => {
+  const img1 = 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/mv0jZE6zNeiKbo2r/empower-your-business-with-custom-software-solutions-3-YBgpvrWKXJS4Nzl4.png'
+  const img2 = 'https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/mv0jZE6zNeiKbo2r/empower-your-business-with-custom-software-solutions-2-m5KvZwJpWQIE9e2q.png'
+
+  const Images = [img1, img2]
+
   return (
     <div className='intro flex w-full h-screen '>
-        <div className='m-auto  text-white'>
-        <h1 className='text-6xl font-serif '>Get Started</h1>
-        <button className='btn btn-primary mt-5 ml-16 justify-center text-4xl rounded-full p-3 backdrop-blur-lg background-gray-900 hover:bg-black ease-in duration-300 text-white' >Click Now</button>
-        </div>
+        <ImageSlider imageUrls={Images} />
+        
         
     </div>
   )

@@ -1,8 +1,9 @@
 import React from 'react'
+import './FeaturedProjectsSection.css'
 
 const FeaturedProjectSection = () => {
   return (
-    <div className='h-full pt-20 mb-auto justify-center items-center bg-gradient-to-b from-slate-500 to-slate-800 '>
+    <div className='fp-main h-full pt-20 pb-2 mb-auto justify-center items-center '>
 
             {/* Heading */}
         <div className='flex justify-center  mx-auto mb-20 text-4xl text-white font-sans font-semibold'> <h1>Featured Projects</h1></div>

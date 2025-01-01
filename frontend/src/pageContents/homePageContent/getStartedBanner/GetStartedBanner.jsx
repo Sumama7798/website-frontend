@@ -1,8 +1,9 @@
 import React from 'react'
+import './GetStartedBanner.css'
 
 const GetStartedBanner = () => {
   return (
-    <div className='h-1/5 bg-gradient-to-t from-slate-500 to-slate-300  justify-center p-10 mx-auto'>
+    <div className='gs-banner h-1/5   justify-center p-10 mx-auto'>
         <div className='flex m-auto text-6xl font-serif text-white items-center justify-center  mx-auto mb-5'>
         <h1>How Can We Help</h1>
         

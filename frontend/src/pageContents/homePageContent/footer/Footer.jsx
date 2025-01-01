@@ -1,8 +1,9 @@
 import React from 'react'
+import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className='h-1/5  bg-gradient-to-t from-slate-800 to-slate-950  p-10 mx-auto'>
+    <div className='footer h-1/5  p-10 mx-auto'>
         <div className='flex-col justify-center m-auto text-6xl font-serif text-white items-center mx-auto mb-5'>
         <h1>Website</h1>        
         </div>
