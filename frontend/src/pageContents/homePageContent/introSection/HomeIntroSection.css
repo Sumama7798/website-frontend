@@ -12,7 +12,7 @@
     flex-shrink: 0;
 }
 .img-slider-btn {
-    
+    border: none;
     cursor: pointer;
     position: absolute;
     top:0;

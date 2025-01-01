@@ -19,3 +19,6 @@ li:hover {
 .icon {
    justify-content: start;
 }
+.navbar::view-transition-new {
+    background-color: black;
+}
