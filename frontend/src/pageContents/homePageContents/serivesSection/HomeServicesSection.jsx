@@ -1,7 +1,22 @@
 import React from 'react'
 import './HomeServicesSection.css'
+import { useCard } from '../../../hooks/useCard.js'
+import { useEffect } from 'react';
 
 const HomeServicesSection = () => {
+
+    const {getCardsByAdress , cards} = useCard();
+
+    useEffect(() => {
+        getCardsByAdress('home', 'services');
+    }, []);
+
+    console.log(cards);
+
+
+
+
+
   return (
     <div className='main h-full pt-20 pb-36 justify-center'>
             
@@ -40,7 +55,7 @@ const HomeServicesSection = () => {
             <p className='paragraph flex justify-center text-lg mt-2 mx-auto w-80 h-40  p-3'>We provide the best services in the world</p>
         </div>
 
-        
+
             {/* card 4 */}
         <div className='m-auto text-4xl text-white'>
             <img src='https://images.unsplash.com/photo-1548602088-9d12a4f9c10f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D' alt='services' className='flex justify-center mx-auto h-32 w-80 rounded-md fill-inherit shadow-md shadow-black'/>
