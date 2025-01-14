@@ -1,11 +1,11 @@
 import React from 'react'
 
-import HomeIntroSection from '../../pageContents/homePageContent/introSection/HomeIntroSection.jsx'
-import HomeServicesSection from '../../pageContents/homePageContent/serivesSection/HomeServicesSection.jsx'
-import FeaturedProjectSection from '../../pageContents/homePageContent/featuredProjectsSection/FeaturedProjectsSection.jsx'
-import AcomplishmentBanner from '../../pageContents/homePageContent/acomplishmentBanner/AcomplishmentBanner.jsx'
-import GetStartedBanner from '../../pageContents/homePageContent/getStartedBanner/GetStartedBanner.jsx'
-import Footer from '../../pageContents/homePageContent/footer/Footer.jsx'
+import HomeIntroSection from '../../pageContents/homePageContents/introSection/HomeIntroSection.js'
+import HomeServicesSection from '../../pageContents/homePageContents/serivesSection/HomeServicesSection.js'
+import FeaturedProjectSection from '../../pageContents/homePageContents/featuredProjectsSection/FeaturedProjectsSection.js'
+import AcomplishmentBanner from '../../pageContents/homePageContents/acomplishmentBanner/AcomplishmentBanner.js'
+import GetStartedBanner from '../../pageContents/homePageContents/getStartedBanner/GetStartedBanner.js'
+import Footer from '../../pageContents/homePageContents/footer/Footer.js'
 
 const HomePage = () => {
   return (

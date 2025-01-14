@@ -10,6 +10,8 @@ const HomeServicesSection = () => {
         <div className='flex justify-center mx-auto pb-20 text-4xl text-white font-sans font-semibold'> <h1>Our Services</h1></div>
         <div className='flex justify-center mx-auto pb-20 text-4xl text-white font-sans font-semibold'> <h1>Our Services</h1></div>
 
+
+
         <div className='flex justify-center items-centers'>
             {/* card 1 */}
         <div className='m-auto text-4xl text-white'>
@@ -17,6 +19,8 @@ const HomeServicesSection = () => {
             <h1 className='flex text-3xl font-serif justify-center mx-auto mt-2'>Services</h1>
             <p className='paragraph flex justify-center text-lg mt-2 mx-auto w-80 h-40  p-3'>We provide the best services in the world</p>
         </div>
+
+
            {/* card 2 */}
         <div className='m-auto text-4xl text-white'>
             <img src='https://images.unsplash.com/photo-1548602088-9d12a4f9c10f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D' alt='services' className='flex justify-center mx-auto h-32 w-80 rounded-md fill-inherit shadow-md shadow-black'/>
@@ -24,6 +28,8 @@ const HomeServicesSection = () => {
             <p className='paragraph flex justify-center text-lg mt-2 mx-auto w-80 h-40  p-3'>We provide the best services in the world</p>
         </div>        
         </div >
+
+
 
             {/* card 3 */}
         <div className='flex justify-center items-centers mt-28'>
@@ -33,6 +39,8 @@ const HomeServicesSection = () => {
             <h1 className='flex text-3xl font-serif justify-center mx-auto mt-2'>Services</h1>
             <p className='paragraph flex justify-center text-lg mt-2 mx-auto w-80 h-40  p-3'>We provide the best services in the world</p>
         </div>
+
+        
             {/* card 4 */}
         <div className='m-auto text-4xl text-white'>
             <img src='https://images.unsplash.com/photo-1548602088-9d12a4f9c10f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D' alt='services' className='flex justify-center mx-auto h-32 w-80 rounded-md fill-inherit shadow-md shadow-black'/>
