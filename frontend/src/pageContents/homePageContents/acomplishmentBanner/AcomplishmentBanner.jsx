@@ -3,19 +3,25 @@ import './AcomplishmentBanner.css'
 
 const AcomplishmentBanner = () => {
   return (
-    <div className='banner h-1/5 justify-center p-10 mx-auto'>
-        <div className='flex m-auto text-6xl font-serif text-white items-center justify-between mx-auto mb-5'>
-        <h1>22</h1>
-        <h1>23</h1>
-        <h1>21</h1>
+    <div className='banner h-1/5 justify-center p-5 mx-auto'>
+
+      <div className='flex items-center  justify-between'>
+        <div className='flex-col m-auto  text-white items-center justify-center mx-auto mb-5'>
+         <h1 className='text-6xl font-prompt font-semibold py-10 flex justify-center'>22</h1>
+         <p className='text-4xl font-prompt'>Qualified employees</p>       
         </div>
 
-        <div className='flex m-auto text-xl font-serif text-white items-center justify-between mx-auto'>
-        <p>Qualified employees</p>
-        <p>Projects deliveres</p>
-        <p>Key industries</p>
+        <div className='flex-col m-auto text-white items-center justify-center mx-auto mb-5'>
+         <h1 className='text-6xl font-prompt font-semibold py-10 flex justify-center'>117</h1>
+         <p className='text-4xl font-prompt'>Projects deliveres</p>        
         </div>
-        
+
+        <div className='flex-col m-auto text-white items-center justify-center mx-auto mb-5'>
+         <h1 className='text-6xl font-prompt font-semibold py-10 flex justify-center'> 4</h1>
+         <p className='text-4xl font-prompt'>Key industries</p>
+        </div>
+
+      </div>  
         </div>
   )
 }

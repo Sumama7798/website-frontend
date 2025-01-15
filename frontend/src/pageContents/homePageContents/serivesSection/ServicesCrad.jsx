@@ -1,13 +1,28 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const ServicesCrad = () => {
-  return (
+const ServicesCrad = ({ servicesCard = {} }) => {
+    const { image = 'default-image.jpg', heading = 'No Title', description = 'No description available.' } = servicesCard;
+
+    return (
         <div className='m-auto text-4xl text-white'>
-            <img src='https://images.unsplash.com/photo-1547628641-ec2098bb5812?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470' alt='services' className='flex justify-center mx-auto h-32 w-80 rounded-md fill-inherit shadow-md shadow-black'/>
-            <h1 className='flex text-3xl font-serif justify-center mx-auto mt-2'>Services</h1>
-            <p className='paragraph flex justify-center text-lg mt-2 mx-auto w-80 h-40  p-3'>We provide the best services in the world</p>
+            <img
+                src={image}
+                alt={heading || 'service image'}
+                className='flex justify-center mx-auto h-40 w-80 rounded-2xl fill-inherit shadow-md shadow-black'
+            />
+            <h1 className='flex text-3xl font-prompt justify-center mx-auto mt-4'>{heading}</h1>
+            <p className='paragraph flex justify-center text-sm mt-4 mx-auto w-80 h-60 p-3 overflow-hidden'>{description}</p>
         </div>
-  )
-}
+    );
+};
 
-export default ServicesCrad
+ServicesCrad.propTypes = {
+    card: PropTypes.shape({
+        image: PropTypes.string,
+        heading: PropTypes.string,
+        description: PropTypes.string,
+    }),
+};
+
+export default ServicesCrad;

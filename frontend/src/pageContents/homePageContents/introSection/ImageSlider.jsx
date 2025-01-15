@@ -24,7 +24,7 @@ export default function ImageSlider({ imageUrls }) {
 
     return (
       <div style={{ position: "relative" }}>
-        <div style={{ display: "flex" , width: 'screen', height: 'screen', overflow: 'hidden'}}>
+        <div style={{ display: "flex" , width: 'screen', height: 'full', overflow: 'hidden'}}>
             {imageUrls.map(url => ( 
             <img key={url} src={url} alt='slider'
             className='img-slider-img w-screen h-screen '

@@ -9,25 +9,25 @@ const Footer = () => {
         </div>
 
         <div className='flex mx-auto justify-end items-center space-x-10'>
-            <div className='flex-col justify-between'>
-                <p className='text-white text-3xl mb-2'>Contact</p>
-                <p className='text-white text-lg'>111111</p>
-                <p className='text-white text-lg'>111111</p>
-                <p className='text-white text-lg'>111111</p>
+            <div className='flex-col justify-center items-center'>
+                <p className='text-white text-3xl mb-2'>Contacts</p>
+                <p className='text-white text-lg'>+92-307-6256808</p>
+                <p className='text-white text-lg'>+92-324-7806438</p>
+                <p className='text-white text-lg'>info@icodeltd.com</p>
             </div>
                 
-            <div>
+            <div className='flex-col justify-center items-center'>
                 <p className='text-white text-3xl mb-2'>Location</p>
-                <p className='text-white text-lg'>111111</p>
-                <p className='text-white text-lg'>111111</p>
-                <p className='text-white text-lg'>111111</p>
+                <p className='text-white text-lg'>113/C Umar Market, Master</p>
+                <p className='text-white text-lg'>City, Gujranwala, Pakistan</p>
+                
             </div>
 
-            <div>
+            <div className='flex-col justify-center items-center'>
                 <p className='text-white text-3xl mb-2'>Hours</p>
-                <p className='text-white text-lg'>111111</p>
-                <p className='text-white text-lg'>111111</p>
-                <p className='text-white text-lg'>111111</p>
+                <p className='text-white text-lg'>I-V   9:00-18:00</p>
+                <p className='text-white text-lg'>VI - VII   Closed</p>
+                
             </div>
 
         </div>

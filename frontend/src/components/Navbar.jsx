@@ -8,7 +8,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        setBgColor('bg-black backdrop-blur-md bg-opacity-50 transition ease-in-out duration-500')
+        setBgColor('bg-zinc-900  bg-opacity-80 transition ease-in-out duration-500')
       } else {
         setBgColor('bg-transparent transition ease-in-out duration-500')
       }

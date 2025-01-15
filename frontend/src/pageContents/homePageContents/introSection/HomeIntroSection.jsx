@@ -10,7 +10,7 @@ const HomeIntroSection = () => {
 
   return (
     <div className='intro flex w-full h-screen '>
-        <ImageSlider imageUrls={Images} />
+        <ImageSlider imageUrls={Images} className='w-full h-full'/>
         
         
     </div>
