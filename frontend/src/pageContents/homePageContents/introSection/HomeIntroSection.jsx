@@ -9,11 +9,13 @@ const HomeIntroSection = () => {
   const Images = [img1, img2]
 
   return (
-    <div className='intro flex w-full h-screen '>
-        <ImageSlider imageUrls={Images} className='w-full h-full'/>
+    
+    <div className='intro flex w-full h-fit-content sm:h-screen lg:h-screen'>
+        <ImageSlider imageUrls={Images} />
         
         
     </div>
+    
   )
 }
 

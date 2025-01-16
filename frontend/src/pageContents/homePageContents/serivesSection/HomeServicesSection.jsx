@@ -22,12 +22,12 @@ const HomeServicesSection = () => {
             
             {/* Heading */}
         
+        
         <div className='flex justify-center mx-auto pb-20 text-4xl text-white font-sans font-semibold'> <h1>Our Services</h1></div>
-        <div className='flex justify-center mx-auto pb-20 text-4xl text-white font-sans font-semibold'> <h1>Our Services</h1></div>
 
 
 
-        <div className='grid grid-cols-2  gap-y-16 justify-center items-centers'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 mx-auto gap-x-1 gap-y-16  items-centers'>
 
             {cards?.map((servicesCard)=> (
                 <ServicesCrad key={servicesCard._id} servicesCard={servicesCard}/>

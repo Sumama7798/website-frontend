@@ -24,19 +24,23 @@ export default function ImageSlider({ imageUrls }) {
 
     return (
       <div style={{ position: "relative" }}>
+
         <div style={{ display: "flex" , width: 'screen', height: 'full', overflow: 'hidden'}}>
             {imageUrls.map(url => ( 
             <img key={url} src={url} alt='slider'
-            className='img-slider-img w-screen h-screen '
+            className='img-slider-img w-screen h-full sm:w-screen sm:h-screen lg:w-screen lg:h-screen'
             style={{ transform: `translateX(-${ImageIndex * 100}%)` }}/>
             ))}
         </div>
+
         <button onClick={ShowPrevImg} className="img-slider-btn" style={{left: '0'}}>
             <ChevronLeft  size={40}/>
         </button>
+
         <button onClick={ShowNextImg} className="img-slider-btn" style={{right: '0'}}>
             <ChevronRight size={40}/>
         </button>
+        
       </div>
     );
   }

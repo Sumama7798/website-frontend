@@ -15,12 +15,15 @@ const FeaturedProjectSection = () => {
     }, [getCardsByAdress, cards]);
 
   return (
-    <div className='fp-main h-full pt-20 pb-2 mb-auto justify-center items-center '>
+    <div className='fp-main h-full pt-20 pb-2 mb-auto mx-auto justify-center items-center '>
 
             {/* Heading */}
-        <div className='flex justify-center  mx-auto mb-20 text-4xl text-white font-sans font-semibold'> <h1>Featured Projects</h1></div>
+        <div className='flex justify-center  mx-auto mb-20 text-4xl text-white font-sans font-semibold'>
+             <h1>Featured Projects</h1>
+        </div>
 
-        <div className='grid grid-cols-2  gap-y-16 justify-center items-centers pb-5'>
+        <div className='relative grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 sm:h-1/2 lg:h-1/2
+        mx-auto gap-x-1 gap-y-16 justify-center items-centers pb-5'>
 
             {cards?.map((projectsCard)=> (
                 <ProjectCard key={projectsCard._id} projectsCard={projectsCard}/>
